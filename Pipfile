@@ -4,12 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-twitchio = "*"
-selenium = "*"
+twitchio = "==1.2.3"
 schedule = "*"
-simpleobsws = "*"
 asyncio = "*"
-pyslobs = "*"
 requests = "*"
 pytz = "*"
 "discord.py" = "*"
@@ -17,8 +14,10 @@ datetime = "*"
 discord = "*"
 boto3 = "*"
 aiocron = "*"
+typing-extensions = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
